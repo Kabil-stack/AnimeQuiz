@@ -1,0 +1,101 @@
+{
+    "questions" :[ 
+        {
+            "question":"Which anime features a young ninja named Naruto Uzumaki who dreams of becoming the Hokage?",
+            "options":["Bleach","Naruto","One Piece","Fairy Tail"],
+            "correctOption":2,
+            "points":10
+        },
+
+        {
+            "question":"In 'One Piece', who is the captain of the Straw Hat Pirates?",
+            "options":["Zoro","Sanji","Monkey D. Luffy","Nami"],
+            "correctOption":3,
+            "points":10
+        },
+        {
+            "question":"Which of these is the iconic mascot character from the 'Pokémon' series?",
+            "options":["Charmander","Meowth","Pikachu","Bulbasaur"],
+            "correctOption":3,
+            "points":10
+        },
+        {
+            "question":"In 'Death Note', what is the name of the supernatural notebook that kills anyone whose name is written in it?",
+            "options":["Evil Book","Death Note","Killer's Diary","Spirit Ledger"],
+            "correctOption":2,
+            "points":10
+        },
+        {
+            "question":"Who is the protagonist of 'Dragon Ball Z'?",
+            "options":["Vegeta","Goku","Piccolo","Gohan"],
+            "correctOption":2,
+            "points":10
+        },
+
+        {
+            "question":"In 'Demon Slayer: Kimetsu no Yaiba', who is the protagonist's sister?",
+            "options":["Shinobu","Nezuko","Mitsuri","Kanao"],
+            "correctOption":2,
+            "points":10
+        },
+        {
+            "question":"Who is the main protagonist of 'Attack on Titan'?",
+            "options":["Levi Ackerman","Mikasa Ackerman","Armin Arlert","Eren Yeager"],
+            "correctOption":4,
+            "points":10
+        },
+        {
+            "question":"In 'Sailor Moon', what is the civilian name of Sailor Moon?",
+            "options":["Ami Mizuno","Rei Hino","Usagi Tsukino","Minako Aino"],
+            "correctOption":3,
+            "points":10
+        },
+        {
+            "question":"What is the primary law or principle of Alchemy in 'Fullmetal Alchemist'?",
+            "options":["Law of Gravity","Equivalent Exchange","Transmutation Circle","Philosopher's Stone"],
+            "correctOption":2,
+            "points":20
+        },
+        {
+            "question":"What is the name of the power system used by characters in 'Hunter x Hunter'?",
+            "options":["Chakra","Nen","Ki","Haki"],
+            "correctOption":2,
+            "points":20
+        },
+
+        {
+            "question":"What is the primary profession of the crew in 'Cowboy Bebop'?",
+            "options":["Space Pirates","Bounty Hunters","Starship Pilots","Smugglers"],
+            "correctOption":2,
+            "points":20
+        },
+
+        {
+            "question":"In 'Neon Genesis Evangelion', who is the primary pilot of Evangelion Unit-01?",
+            "options":["Asuka Langley Soryu","Rei Ayanami","Shinji Ikari","Kaworu Nagisa"],
+            "correctOption":3,
+            "points":20
+        },
+        {
+            "question":"Which institution do Yuji Itadori and his friends attend in 'Jujutsu Kaisen'?",
+            "options":["Tokyo Jujutsu High","Kyoto Academy","Seidō High","UA High School"],
+            "correctOption":1,
+            "points":20
+        },
+        {
+            "question":"In 'Steins;Gate', which catchphrase does the self-proclaimed mad scientist Okabe Rintarou use?",
+            "options":["Believe it!","El Psy Kongroo","I'll be back.","Dattebayo!"],
+            "correctOption":2,
+            "points":30
+        },
+        {
+            "question":"In what year was the landmark anime film 'Akira' released?",
+            "options":["1988","1995","1982","1979"],
+            "correctOption":1,
+            "points":30
+        }
+
+    ]
+
+    
+}
