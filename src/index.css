@@ -1,0 +1,277 @@
+img{
+  height: 100px;
+  width: 125px;
+  
+}
+body{
+  background-color: #FFF7ED;
+  color: #1F2937;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.begin{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+
+li{
+  list-style: none;
+}
+
+h1{
+  font-size: 4rem;
+  color: #F59E0B;
+}
+
+.begin button{
+  background-color: rgb(62, 62, 232);
+  color: white;
+  border: none;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.begin button:hover{
+  cursor: pointer;
+  background-color: rgb(84, 84, 237);
+  font-size: 1.6rem;
+}
+.questions{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  text-align: center;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.questions h2{
+  font-size: 2.5rem;
+}
+.nextBtn {
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgb(9, 125, 9);
+  height: 30px;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+ 
+}
+.nextBtn:hover{
+  cursor: pointer;
+  background-color: rgb(26, 233, 26);
+  font-size: 1.3rem;
+}
+
+.options{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.options .btn{
+  width: 600px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  
+  background-color: rosybrown;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.options .btn:hover{
+  cursor: pointer;
+  font-size: 1.7rem;
+  
+}
+.options .right{
+  background-color: aqua;
+}
+
+.options .wrong{
+  
+  background-color: #F59E0B;
+}
+
+.timer{
+  font-size: 1.5rem;
+  
+ 
+  border-radius: 5px;
+ 
+  color: red;
+  text-align: center;
+  height: 30px;
+ display: flex;
+ justify-content: flex-end;
+ gap: 10px;
+ padding: 10px;
+ padding-bottom: 10px;
+}
+
+.points{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.points span{
+  color: blue;
+}
+
+.quiz-app{
+  height: 600px;
+}
+
+.next{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.finish {
+  background-color: red;
+}
+.finish:hover{
+  background-color: rgb(236, 61, 61);
+}
+
+.final{
+  text-align: center;
+}
+
+.final button{
+  width: 150px;
+    border-radius: 10px;
+    background-color: rgb(50, 50, 230);
+    height: 30px;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.final button:hover{
+  cursor: pointer;
+  font-size: 1.6rem;
+  background: linear-gradient(45deg, rgb(191, 191, 230), rgb(20, 63, 237), rgb(178, 214, 229));
+}
+
+.final h2{
+  font-size: 2rem;
+}
+
+.begin h2{
+  font-size: 2.5rem;
+}
+.begin h3{
+  font-size: 2rem;
+}
+
+.progress progress{
+  width: 400px;
+  height: 30px;
+  
+}
+
+.progress label{
+  font-size: 1.5rem;
+}
+
+@media (max-width: 400px) {
+  .begin h2{
+    font-size: 1.5rem;
+  }
+    .begin h3 {
+      font-size: 1.3rem;
+    }
+
+    .begin button{
+      font-size: 1.1rem;
+      width: 100px;
+    }
+    .header h1{
+      font-size: 1.5rem;
+    }
+    .header img{
+      height: 80px;
+      width: 100px;
+    }
+
+        .questions h2 {
+          font-size: 1.2rem;
+        }
+
+        .progress progress {
+          width: 200px;
+          height: 15px;
+    
+        }
+      .progress label{
+        font-size: 1rem;
+      }
+    .timer{
+      font-size: 1rem;
+     margin-bottom: 20px;
+
+
+    }
+
+    .points{
+      font-size: 1rem;
+    }
+
+  .options .btn{
+    width: 250px;
+    height: 20px;
+    font-size: 1rem;
+  }
+
+    .options .btn:hover {
+      cursor: pointer;
+      font-size: 1.1rem;
+  
+    }
+
+    .nextBtn{
+      width: 100px;
+      height: 20px;
+      font-size: 1rem;
+      margin-left: 20px;
+    }
+
+        .nextBtn:hover {
+          cursor: pointer;
+          background-color: rgb(26, 233, 26);
+          font-size: 1.1rem;
+        }
+
+        .questions{
+          height: 250px;
+        }
+
+      .final h2{
+        font-size: 1.3rem;
+      }
+
+      .final button{
+        width: 100px;
+        font-size: 1rem;
+      }
+
+     
+}
