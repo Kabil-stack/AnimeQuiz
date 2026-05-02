@@ -79,9 +79,9 @@ function App() {
   
   useEffect(()=>{
     async function datafetch(){
-      const res = await fetch('/data/questions.json');
+      const res = await fetch('/AnimeQuiz/questions.json');
       const data = await res.json();
-      console.log(data)
+      
       dispatch({type:"datareceived",payload:data.questions})
     }
     datafetch()
